@@ -17,7 +17,7 @@ namespace GameProject.Concrete
             _gamerCheckService = gamerCheckService;
         }
 
-        private List<Gamer> gamers = new List<Gamer>();
+        List<Gamer> gamers = new List<Gamer>();
         public void Add(Gamer gamer)
         {
             if (_gamerCheckService.CheckIfRealGamer(gamer))
