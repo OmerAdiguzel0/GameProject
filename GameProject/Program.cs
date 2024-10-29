@@ -46,8 +46,8 @@ namespace GameProject
             Gamer gamer1 = new Gamer
             {
                 Id = 1,
-                FirstName = "Sude Nur",
-                LastName = "Can",
+                FirstName = "Semih",
+                LastName = "Bayram",
                 DateOfBirth = new DateTime(1234,5,6),
                 NationalityId = "12345678901"
             };
